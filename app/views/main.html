@@ -1,0 +1,30 @@
+<!-- User Authentication -->
+<div style="position:absolute;top:25%;left:30%;">
+    <div id="hideClear"></div>
+    <div id="cfPrompt">
+        <div id="cftitleBar"></div>
+        <div id="promptBody"></div>
+    </div>
+</div>
+<div id="mainContainer">
+    <h1 id="mainTitle">MEGA Desktop Client</h1>
+    <div id="droparea">
+        <table id="fileTable">
+            <tr>
+                <th>Filename:</th>
+                <th>File ID:</th>
+                <th>Download:</th>
+                <th>Delete:</th>
+            </tr>
+        </table>
+        <!-- <p>Drop Area</p> -->
+    </div>
+    <div id="mainTools">
+        <span id="toolOff">
+                Upload File: <input type="file" id="fileselect1" multiple=""> <span><button onclick="backToRoot()">Go to Root Folder</button></span>
+        <br> Create New Folder:
+        <input type="text" id="newFolderName">
+        <button onclick="makeFolderUI()">Add Folder</button>
+        </span>
+    </div>
+</div>
